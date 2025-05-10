@@ -20,17 +20,15 @@ public class Main8 {
         int defensePower = Integer.parseInt(defensePowerStr);
         defensePower = 20;
 
-        System.out.print("通常ダメージ：");
-        String damageStr = scanner.nextLine();
-        int damage = Integer.parseInt(damageStr);
+        int damage;
         damage =atackPower - defensePower;
+        System.out.println("通常ダメージ："+damage);
         
-        System.out.print("クリティカルダメージ：");
-        String criticalDamageStr = scanner.nextLine();
-        double criticalDamage = Integer.parseInt(criticalDamageStr);
+        double criticalDamage;
         criticalDamage = damage *1.5;
+        System.out.println("クリティカルダメージ："+(int)criticalDamage);
 
-        
+
         scanner.close();
 
     } 

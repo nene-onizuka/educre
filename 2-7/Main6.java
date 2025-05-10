@@ -13,11 +13,11 @@ public class Main6 {
         String experiencePointsStr = scanner.nextLine();
         int experiencePoints =Integer.parseInt(experiencePointsStr);
         experiencePoints =1000;
-
-        System.out.print("ボーナス後の経験値：" );
-        String bonusExperiencePointsStr = scanner.nextLine();
-        double bonusExperiencePoints = Integer.parseInt(bonusExperiencePointsStr);
+        
+        double bonusExperiencePoints;
         bonusExperiencePoints =experiencePoints *1.25;
+        System.out.println("ボーナス後の経験値："+(int)bonusExperiencePoints );
+        
 
         scanner.close();
     
