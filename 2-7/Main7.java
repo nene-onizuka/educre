@@ -6,7 +6,7 @@
 
 public class Main7 {
     public static void main(String[] args) {
-        int physicalStrength = 100;
+        int physicalStrength = 99;
 
         System.out.println("攻撃1回目：残り体力"+ physicalStrength);
 
