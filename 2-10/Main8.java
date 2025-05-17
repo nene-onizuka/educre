@@ -1,5 +1,3 @@
-import java.nio.file.SecureDirectoryStream;
-
 /**switch文での範囲測定の実装
  * (score/10をswitchの条件に使うことでscoreの十の位を判定)
  * 点数から評価（A-F）を判定
